@@ -1,6 +1,9 @@
+import java.util.Scanner;
+
 public class FibonacciSeries {
     public static void main(String[] args) {
-        int n = 10;
+        Scanner s = new Scanner(System.in);
+        int n = s.nextInt();
         System.out.println(fibonacciSeries(n));
     }
 
